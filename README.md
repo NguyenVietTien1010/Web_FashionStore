@@ -47,6 +47,7 @@
 ## 👤 Thành viên nhóm
 
 - Nguyễn Viết Tiến – 2001224408 – 13DHTH02
+- → *Đảm nhận vai trò lên ý tưởng thiết kế giao diện, xây dựng bố cục tổng thể và hỗ trợ phát triển frontend.*
 - Trần Dương Tường Vy – 2001225950 – 13DHTH02
 
 ---
