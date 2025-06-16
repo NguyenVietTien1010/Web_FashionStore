@@ -46,7 +46,7 @@
 
 ## 👤 Thành viên nhóm
 
-- Khưu Diệu Anh – 2001220195 – 13DHTH02
+- Nguyễn Viết Tiến – 2001224408 – 13DHTH02
 - Trần Dương Tường Vy – 2001225950 – 13DHTH02
 
 ---
