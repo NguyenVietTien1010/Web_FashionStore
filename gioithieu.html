@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Giới thiệu - Fashion Store</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/topnav.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/taikhoan.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/gioithieu.css" />
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+      window.onload = function () {
+        khoiTao();
+        // thêm tags (từ khóa) vào khung tìm kiếm
+        var tags = ["Uniqlo", "Dior", "Chanel", "Gap", "H&M"];
+        for (var t of tags) addTags(t, "index.html?search=" + t);
+      };
+    </script>
+  </head>
+
+  <body>
+    <script>
+      addTopNav();
+    </script>
+
+    <section style="min-height: 85vh">
+      <script>
+        addHeader();
+      </script>
+
+      <div class="page-gt">
+        <h4 class="page-header">Giới thiệu</h4>
+        <div class="page-info">
+          <p>
+            Tất cả các thương hiệu và hoạt động kinh doanh của chúng tôi đều có
+            chung niềm đam mê là tạo ra những bản thiết kế, thời trang nhanh và
+            bền vững hơn cho mọi người. Mỗi thương hiệu có màu sắc riêng và cùng
+            nhau bổ sung cho nhau và củng cố Fashion Store - tất cả nhằm mang
+            đến cho khách hàng những giá trị vượt trội và tạo nên một lối sống
+            tuần hoàn hơn.
+          </p>
+          <br />
+          <p>
+            All of our brands and businesses share a passion for making design,
+            fast fashion and more sustainable for everyone. Each brand has its
+            own color scheme and together they complement each other and
+            strengthen the Fashion Store - all to offer customers exceptional
+            value and create a more circular lifestyle.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+      <script>
+        addFooter();
+      </script>
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+  </body>
+</html>

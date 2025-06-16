@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liên hệ - Fashion Store</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script src="js/lienhe.js"></script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-lienhe">
+            <div class="lienhe-header">Liên hệ</div>
+            <div class="lienhe-info">
+                <div class="info-left">
+                    <p>
+                        <h2 style="color: gray"> CÔNG TY TRÁCH NHIỆM HỮU HẠN FASHION - GROUP </h2><br />
+                        <b>Địa chỉ:</b> 140 Lê Trọng Tấn, Tây Thạnh, Tân Phú, TPHCM<br /><br />
+                        <b>Telephone:</b> 028 6270 6275<br /><br />
+                        <b>Hotline:</b> 028 6886 789 - CSKH: 028 5434 449<br /><br />
+                        <b>Website:</b> <a>cuahangthoitrangviet.com</a> <br /><br />
+                        <b>E-mail:</b> cuahangthoitrangviet@gmail.com<br /><br />
+                        <b>Mã số thuế:</b> 9999999<br /><br />
+                        <b>Tài khoản ngân hàng : CTYTNHH FASHION STORE</b><br /><br />
+                        <b>Số TK:</b> 0988889988 <br /><br />
+                        <b>Tại Ngân hàng:</b> Vietcombank Chi nhánh Sài Gòn<br /><br /><br /><br />
+                        <b>TRONG TRƯỜNG HỢP SẢN PHẨM CÓ LỖI TỪ NHÀ SẢN XUẤT <br /><br />
+                        <b>Vui lòng liên hệ đến Trung Tâm Khách Hàng trước khi đổi hoặc hoàn trả sản phẩm để được hỗ trợ cho sản phẩm có lỗi từ nhà sản xuất.</b>
+                    </p>
+                </div>
+
+                <div class="info-right">
+                    <iframe width="100%" height="450"  src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=140%20%C4%90.%20L%C3%AA%20Tr%E1%BB%8Dng%20T%E1%BA%A5n,%20T%C3%A2y%20Th%E1%BA%A1nh,%20T%C3%A2n%20Ph%C3%BA,%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh,%20Vi%E1%BB%87t%20Nam+(Fashion%20Store)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        <a href="https://www.gps.ie/">gps devices</a>
+                    </iframe>
+                </div>
+
+               
+
+              
+            </div>
+            <div class="lienhe-info">
+
+                <div class="guithongtin">
+                    <p style="font-size: 22px; color: gray">Gửi thông tin liên lạc cho chúng tôi: </p>
+                    <hr />
+                    <form name="formlh" onsubmit="return nguoidung()">
+                        <table cellspacing="10px">
+                            <tr>
+                                <td>Họ và tên</td>
+                                <td><input type="text" name="ht" size="40" maxlength="40" placeholder="Họ tên"
+                                        autocomplete="off" required></td>
+                            </tr>
+                            <tr>
+                                <td>Điện thoại liên hệ</td>
+                                <td><input type="text" name="sdt" size="40" maxlength="11" minlength="10" placeholder="Điện thoại"
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ Email</td>
+                                <td><input type="email" name="em" size="40" placeholder="Email" autocomplete="off"
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td>Tiêu đề</td>
+                                <td><input type="text" name="tde" size="40" maxlength="100" placeholder="Tiêu đề"
+                                        required>
+                            </tr>
+                            <tr>
+                                <td>Nội dung</td>
+                                <td><textarea name="nd" rows="5" cols="44" maxlength="500" wrap="physical"
+                                        placeholder="Nội dung liên hệ" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button type="submit">Gửi thông tin liên hệ</button></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                <div class="thongtinnhom">
+                    <p style="font-size: 22px; color: gray">Thông tin thành viên nhóm: </p>
+                    <hr />
+                    <table>
+                        <tr>
+                            <th>Họ tên</th>
+                            <th>MSSV</th>
+                            <th>Giới tính</th>
+                            <th>Lớp</th>
+                            <th>Tỉ lệ công việc</th>
+                        </tr>
+                        <script>
+                            var thongtin = [
+                                ["Khưu Diệu Anh", "2001220195", "Nữ", "13DHTH02", "100%"],
+                                ["Trần Dương Tường Vy", "2001225950", "Nữ", "13DHTH02", "100%"],
+                                
+                            ]
+                            for (var i = 0; i < thongtin.length; i++) {
+                                document.write(
+                                    `
+                                    <tr>
+                                        <td>` +
+                                    thongtin[i][0] + `</td>
+                                        <td>` +
+                                    thongtin[i][1] + `</td>
+                                        <td>` +
+                                    thongtin[i][2] + `</td>
+                                        <td>` +
+                                    thongtin[i][3] + `</td>
+                                        <td>` +
+                                    thongtin[i][4] +
+                                    `</td>
+                                    </tr>
+                                `
+                                )
+                            }
+                        </script>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+        <script>
+            addFooter();
+        </script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
